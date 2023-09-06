@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "A:\\Desktop\\Tasks\\Task2\\JsonParserTests\\JsonParserTests.csproj": {}
+  },
+  "projects": {
+    "A:\\Desktop\\Tasks\\Task2\\JsonParserTests\\JsonParserTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Desktop\\Tasks\\Task2\\JsonParserTests\\JsonParserTests.csproj",
+        "projectName": "JsonParserTests",
+        "projectPath": "A:\\Desktop\\Tasks\\Task2\\JsonParserTests\\JsonParserTests.csproj",
+        "packagesPath": "C:\\Users\\Volch\\.nuget\\packages\\",
+        "outputPath": "A:\\Desktop\\Tasks\\Task2\\JsonParserTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "A:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Volch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "A:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "A:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "A:\\Desktop\\Tasks\\Task2\\JsonParser\\JsonParser.csproj": {
+                "projectPath": "A:\\Desktop\\Tasks\\Task2\\JsonParser\\JsonParser.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "A:\\Program Files\\dotnet\\sdk\\7.0.110\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "A:\\Desktop\\Tasks\\Task2\\JsonParser\\JsonParser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "A:\\Desktop\\Tasks\\Task2\\JsonParser\\JsonParser.csproj",
+        "projectName": "JsonParser",
+        "projectPath": "A:\\Desktop\\Tasks\\Task2\\JsonParser\\JsonParser.csproj",
+        "packagesPath": "C:\\Users\\Volch\\.nuget\\packages\\",
+        "outputPath": "A:\\Desktop\\Tasks\\Task2\\JsonParser\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "A:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Volch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "A:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "A:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.21, 6.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.21, 6.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "A:\\Program Files\\dotnet\\sdk\\7.0.110\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
